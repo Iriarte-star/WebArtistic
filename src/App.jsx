@@ -1,6 +1,6 @@
 
 import './App.css'
-import Header from './components/header'
+import Header from './components/Header'
 import Body from './components/Body'
 import TestimonialsSlider from './components/TestimonialsSlider'
 import Footer from './components/footer'
