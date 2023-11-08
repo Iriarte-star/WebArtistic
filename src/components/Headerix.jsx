@@ -1,7 +1,7 @@
-import { FaFacebookF } from "react-icons/fa";
+import { FaShopify } from "react-icons/fa";
 import { MdOutlinePalette } from "react-icons/md";
 
-const  Header = ()=>{
+const  Headerix = ()=>{
     const backgroundPintor = {
         backgroundImage: "url('bgpintor.jpg')"
     }
@@ -26,9 +26,9 @@ const  Header = ()=>{
                 <span className="">O</span>
             </span>
         </p>
-          <div className="flex gap-4 ">
-            <FaFacebookF className="w-8 h-8  text-sky-500   bg-slate-900 p-1 rounded-lg" />
-            <button className="  text-white bg-orange-600 pt-2 pb-2 pl-8 pr-8 font-raleway ">Shop Gallery</button>
+          <div className="flex  bg-orange-600 p-4 items-center gap-2  ">
+            <FaShopify className="w-8 h-8  text-green-400   bg-slate-900 p-1 rounded-lg" />
+            <a href="https://308b14-2.myshopify.com/"  className="  text-white font-bold bg-orange-600  font-raleway ">Shop Gallery</a>
           </div>
         </div>
       </div>
@@ -36,4 +36,4 @@ const  Header = ()=>{
   )
 }
 
-export default Header;
+export default Headerix;

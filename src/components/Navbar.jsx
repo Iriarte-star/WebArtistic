@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <nav className="bg-gray-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold">Arts M&M</div>
+        <div className="text-2xl font-bold">M&M</div>
         <ul className="flex space-x-6">
           <li>
             <a href="/">Home</a>
